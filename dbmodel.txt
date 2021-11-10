@@ -1,0 +1,16 @@
+ DB - main:
+
+#data
+{
+    "wallets":{
+    "LTC":{
+        "currency": "LTC",
+        "address": "gsvfhg2vu3ytcusfcdhgsvdkh"
+    },
+    "BCH":{
+        "currency": "BCH",
+        "address": "hghwcehgfc2u3cuaiuhsblksd"
+    }},
+    "walletsApplied": 1859,
+    "coinsCountdown": 14573
+}
