@@ -1,8 +1,8 @@
 const express = require('express');
 const { MongoClient, ObjectId } = require('mongodb');
 const app = express();
-const dataDocOBJID = '61892eebc924e3427058148c';
-const DB_URI = 'mongodb+srv://admin:1234@cluster0.swfhc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const dataDocOBJID = '618bd9723e5394334136e5a4';
+const DB_URI = 'mongodb+srv://admin:Vi1cu8aoQW44LsjD@cluster0.nlsfg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const port = process.env.PORT || '5000';
 
 setInterval(()=>{
