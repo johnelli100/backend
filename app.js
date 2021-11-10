@@ -16,7 +16,7 @@ setInterval(()=>{
                 coinsCountdown: response.coinsCountdown+(randomAppliedWalletsNumber*8)
             }}).then(result=>{
                 console.log(result);
-                client.close();
+                client.close(); 
                 console.log('updated!');
             }).catch(err=>console.error(err));
         }).catch(err=>console.error(err));
