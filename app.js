@@ -21,7 +21,7 @@ setInterval(()=>{
             }).catch(err=>console.error(err));
         }).catch(err=>console.error(err));
     });
-}, 3600000);
+}, 60000);
 
 app.use(require('cors')());
 
